@@ -1,0 +1,10 @@
+[
+  {
+    "url": "/ims/campaignStat.do",
+    "target": "/ims/campaignStat.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告计划统计"
+  }
+]
+

@@ -1,0 +1,38 @@
+[
+  {
+    "url": "/channel/loadCampignList.do",
+    "target": "/channel/loadCampignList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "渠道主"
+  },
+  {
+    "url": "/channel/loadChannelAppList.do",
+    "target": "/channel/loadChannelAppList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "渠道主"
+  },
+  {
+    "url": "/channel/channelStatList.do",
+    "target": "/channel/channelStatList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "渠道主"
+  },
+  {
+    "url": "/channel/getUser.do",
+    "target": "/channel/getUser.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "渠道主"
+  },
+  {
+    "url": "/channel/change_pwd.do",
+    "target": "/channel/change_pwd.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "渠道主修改密码"
+  }
+]
+

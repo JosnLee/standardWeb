@@ -1,0 +1,31 @@
+[
+  {
+    "url": "/ims/upload.do",
+    "target": "/ims/upload.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "上传合约"
+  },
+  {
+    "url": "/ims/channelcontractAdd.do",
+    "target": "/ims/channelcontractAdd.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "渠道合约新建"
+  },
+  {
+    "url": "/ims/channelContractDetail.do",
+    "target": "/ims/channelContractDetail.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "渠道合约详情"
+  },
+  {
+    "url": "/ims/updateChannelContract.do",
+    "target": "/ims/updateChannelContract.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "渠道合约详情修改"
+  }
+]
+

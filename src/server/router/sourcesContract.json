@@ -1,0 +1,10 @@
+[
+  {
+    "url": "/ims/channelContractList.do",
+    "target": "/ims/channelContractList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "渠道合约列表"
+  }
+]
+

@@ -1,0 +1,17 @@
+[
+  {
+    "url": "/ims/appList.do",
+    "target": "/ims/appList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "渠道列表"
+  },
+  {
+    "url": "/ims/appFreeze.do",
+    "target": "/ims/appFreeze.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "冻结"
+  }
+]
+

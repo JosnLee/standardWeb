@@ -1,0 +1,22 @@
+[
+  {
+    "url": "/adv/adStatList.do",
+    "target": "/adv/adStatList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告主统计"
+  }, {
+    "url": "/adv/loadAdCampignList.do",
+    "target": "/adv/loadAdCampignList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告主数据统计"
+  }, {
+    "url": "/adv/getUser.do",
+    "target": "/adv/getUser.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告主信息"
+  }
+]
+

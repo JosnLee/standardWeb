@@ -1,0 +1,17 @@
+[
+  {
+    "url": "/ims/creativeList.do",
+    "target": "/ims/creativeList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "创意列表"
+  },
+  {
+    "url": "/ims/changeCreativeStatus.do",
+    "target": "/ims/changeCreativeStatus.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "更新广告创意状态"
+  }
+]
+

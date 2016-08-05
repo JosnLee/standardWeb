@@ -1,0 +1,38 @@
+[
+  {
+    "url": "/ims/getChannelName.do",
+    "target": "/ims/getChannelName.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "渠道主列表"
+  },
+  {
+    "url": "/ims/isChannelShortName.do",
+    "target": "/ims/isChannelShortName.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "公司简称"
+  },
+  {
+    "url": "/ims/channelAdd.do",
+    "target": "/ims/channelAdd.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "渠道主新建"
+  },
+  {
+    "url": "/ims/getChannelById.do",
+    "target": "/ims/getChannelById.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "获取渠道住id"
+  },
+  {
+    "url": "/ims/updateChannel.do",
+    "target": "/ims/updateChannel.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "渠道主修改"
+  }
+]
+

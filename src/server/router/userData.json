@@ -1,0 +1,24 @@
+[
+  {
+    "url": "/ims/loadAdChannelList.do",
+    "target": "/ims/loadAdChannelList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "渠道列表"
+  },
+  {
+    "url": "/ims/userData.do",
+    "target": "/ims/userData.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "用户数据列表"
+  },
+  {
+    "url": "/ims/loadAdAppList.do",
+    "target": "/ims/loadAdAppList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "应用列表"
+  }
+]
+

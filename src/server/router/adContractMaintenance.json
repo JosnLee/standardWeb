@@ -1,0 +1,33 @@
+[
+  {
+    "url": "/ims/upload.do",
+    "target": "/ims/upload.do",
+    "api": "data",
+    "file":true,
+    "fieldname": "file",
+    "method": "POST",
+    "desc": "上传合约"
+  },
+  {
+    "url": "/ims/adcontractAdd.do",
+    "target": "/ims/adcontractAdd.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "广告合约新建"
+  },
+  {
+    "url": "/ims/adContractDetail.do",
+    "target": "/ims/adContractDetail.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告合约详情"
+  },
+  {
+    "url": "/ims/updateAdContract.do",
+    "target": "/ims/updateAdContract.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "广告合约详情修改"
+  }
+]
+

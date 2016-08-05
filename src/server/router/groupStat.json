@@ -1,0 +1,10 @@
+[
+  {
+    "url": "/ims/groupStat.do",
+    "target": "/ims/groupStat.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告组统计"
+  }
+]
+

@@ -1,0 +1,17 @@
+[
+  {
+    "url": "/ims/campaignJudge.do",
+    "target": "/ims/campaignJudge.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告计划列表"
+  },
+  {
+    "url": "/ims/campaignStatus.do",
+    "target": "/ims/campaignStatus.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "更新状态"
+  }
+]
+

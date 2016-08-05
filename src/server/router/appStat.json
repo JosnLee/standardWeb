@@ -1,0 +1,10 @@
+[
+  {
+    "url": "/ims/appStat.do",
+    "target": "/ims/appStat.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "应用统计"
+  }
+]
+

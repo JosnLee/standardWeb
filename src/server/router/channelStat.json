@@ -1,0 +1,10 @@
+[
+  {
+    "url": "/ims/channelStat.do",
+    "target": "/ims/channelStat.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "渠道统计"
+  }
+]
+

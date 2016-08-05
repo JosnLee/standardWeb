@@ -1,0 +1,38 @@
+[
+  {
+    "url": "/ims/loadChannelList.do",
+    "target": "/ims/loadChannelList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "加载渠道主列表"
+  },
+  {
+    "url": "/ims/loadChannelContractList.do",
+    "target": "/ims/loadChannelContractList.doo",
+    "api": "data",
+    "method": "GET",
+    "desc": "关联渠道合约"
+  },
+  {
+    "url": "/ims/appAdd.do",
+    "target": "/ims/appAdd.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "应用新建"
+  },
+  {
+    "url": "/ims/appDetail.do",
+    "target": "/ims/appDetail.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "应用详情"
+  },
+  {
+    "url": "/ims/appUpdate.do",
+    "target": "/ims/appUpdate.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "渠道主修改"
+  }
+]
+

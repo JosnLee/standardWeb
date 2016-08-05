@@ -1,0 +1,51 @@
+[
+  {
+    "url": "/ims/addPhoto.do",
+    "target": "/ims/addPhoto.do",
+    "api": "data",
+    "method": "POST",
+    "file": true,
+    "fieldname": "photoFile",
+    "desc": "上传图片"
+  },
+  {
+    "url": "/ims/addVedio.do",
+    "target": "/ims/addVedio.do",
+    "file": true,
+    "fieldname": "vedioFile",
+    "api": "data",
+    "method": "POST",
+    "desc": "上传视频"
+  },
+  {
+    "url": "/ims/addAudio.do",
+    "target": "/ims/addAudio.do",
+    "api": "data",
+    "method": "POST",
+    "file": true,
+    "fieldname": "audioFile",
+    "desc": "上传音频"
+  },
+  {
+    "url": "/ims/creativeAdd.do",
+    "target": "/ims/creativeAdd.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "新加创意"
+  },
+  {
+    "url": "/ims/creativeDetail.do",
+    "target": "/ims/creativeDetail.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告创意详情"
+  },
+  {
+    "url": "/ims/creativeUpdate.do",
+    "target": "/ims/creativeUpdate.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "广告创意更新"
+  }
+]
+

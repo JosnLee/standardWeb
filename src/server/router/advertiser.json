@@ -1,0 +1,24 @@
+[
+  {
+    "url": "/ims/getAdvList.do",
+    "target": "/ims/getAdvList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告主列表"
+  },
+  {
+    "url": "/ims/AdvRest.do",
+    "target": "/ims/AdvRest.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "重置"
+  },
+  {
+    "url": "/ims/advFreeze.do",
+    "target": "/ims/advFreeze.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "冻结"
+  }
+]
+

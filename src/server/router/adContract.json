@@ -1,0 +1,10 @@
+[
+  {
+    "url": "/ims/adContractList.do",
+    "target": "/ims/adContractList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告合约列表"
+  }
+]
+

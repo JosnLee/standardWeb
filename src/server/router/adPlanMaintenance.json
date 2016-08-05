@@ -1,0 +1,38 @@
+[
+  {
+    "url": "/ims/loadCampaignList.do",
+    "target": "/ims/loadCampaignList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "加载计划列表"
+  },
+  {
+    "url": "/ims/loadAdvContractList.do",
+    "target": "/ims/loadAdvContractList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "加载广告主列表"
+  },
+  {
+    "url": "/ims/campaignAdd.do",
+    "target": "/ims/campaignAdd.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "新建广告计划"
+  },
+  {
+    "url": "/ims/campaignDetail.do",
+    "target": "/ims/campaignDetail.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告计划详情"
+  },
+  {
+    "url": "/ims/campaignUpdate.do",
+    "target": "/ims/campaignUpdate.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "广告更新"
+  }
+]
+

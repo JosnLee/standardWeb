@@ -1,0 +1,10 @@
+[
+  {
+    "url": "/ims/adData.do",
+    "target": "/ims/adData.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告数据列表"
+  }
+]
+

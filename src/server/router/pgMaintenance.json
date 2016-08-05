@@ -1,0 +1,45 @@
+[
+  {
+    "url": "/ims/loadList.do",
+    "target": "/ims/loadList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "加载现有推广组"
+  },
+  {
+    "url": "/ims/groupAdd.do",
+    "target": "/ims/groupAdd.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "新建推广组"
+  },
+  {
+    "url": "/ims/groupDetail.do",
+    "target": "/ims/groupDetail.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "推广组详情"
+  },
+  {
+    "url": "/ims/tagList.do",
+    "target": "/ims/tagList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "兴趣爱好"
+  },
+  {
+    "url": "/ims/loadOne.do",
+    "target": "/ims/loadOne.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "模态框加载"
+  },
+  {
+    "url": "/ims/updateGroup.do",
+    "target": "/ims/updateGroup.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "更新广告组"
+  }
+]
+

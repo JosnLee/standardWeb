@@ -1,0 +1,17 @@
+[
+  {
+    "url": "/ims/albumList.do",
+    "target": "/ims/albumList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "FM"
+  } ,
+  {
+    "url": "/ims/voiceList.do",
+    "target": "/ims/voiceList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "FM list"
+  }
+]
+

@@ -1,0 +1,9 @@
+[
+  {
+    "url": "/login/adminLogin.do",
+    "target": "/login/adminLogin.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "登录接口"
+  }
+]

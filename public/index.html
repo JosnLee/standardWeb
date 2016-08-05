@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html ng-app="ImsApp">
+<head>
+  <meta charset="UTF-8">
+  <!-- build:css -->
+  <link rel="stylesheet" href="/min/app.min.b288d3f0-59f5-11e6-a180-1f577513a90c.css">
+  <!-- endbuild -->
+  <title>盒子有声联盟AGX-IMS</title>
+</head>
+
+<body ng-controller="indexController">
+
+<div class="app app-header-fixed" id="mainBody">
+
+
+  <!-- 页头 -->
+  <div class="app-header navbar">
+    <div class="navbar-header">
+      <button class="pull-right visible-xs">
+        <i class="glyphicon glyphicon-align-justify"></i>
+      </button>
+      <a href="http://www.audiogroup.cn" class="navbar-brand">
+        <img src="image/logo.png" alt="logo" class="pull-left .mt-1">
+      </a>
+      <span class="app-title">盒子有声联盟AGX-IMS</span>
+      <div class="hdRight">
+        <span>欢迎{{userInfo.user.userName}}</span>
+        <span class="cp"><a ng-click="exit()">退出</a></span>
+      </div>
+
+    </div>
+  </div>
+  <!-- / 页头 -->
+
+  <!-- 侧边导航 -->
+  <div class="app-aside hidden-xs" ng-class="{'off-screen':navShow}" >
+    <ul class="nav ng-cloak">
+      <li ng-repeat="menuItem in MenuItem" ng-class="{active: menuItem.active}" data-id="{{$index}}"><!-- class="{{navActive | filter : menuItem.name}}"-->
+        <a href class="auto" ng-click="toggle()">
+							<span class="pull-right">
+								<span class="glyphicon glyphicon-triangle-right text"></span>
+								<span class="glyphicon glyphicon-triangle-bottom text-active"></span>
+							</span>
+          <i class="glyphicon glyphicon-{{menuItem.iconClass}} icon"></i>
+          <span>{{menuItem.title}}</span>
+        </a>
+        <ul class="nav nav-sub">
+          <li ng-repeat="listItem in menuItem.lists" ng-class="{active: navOpenInit()}">
+            <a ui-sref="{{listItem[0]}}">
+              <span>{{listItem[1]}}</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <!-- / 侧边导航 -->
+
+  <!-- 页面主体 -->
+  <div class="app-content">
+    <div ui-butterbar></div>
+    <div class="app-content-body fade-in-down" ui-view></div>
+  </div>
+  <!-- / 页面主体 -->
+</div>
+
+</body>
+<script src="lib/angular.min.js"></script>
+<script src="lib/jquery.min.js"></script>
+<script src="lib/angular-ui-router.min.js"></script>
+<script src="lib/ui-bootstrap-tpls.min.js"></script>
+<script src="lib/angular-bootstrap-lightbox.min.js"></script>
+<script src="lib/angular-block-ui.min.js"></script>
+<script src="lib/angular-sanitize.min.js"></script>
+<script src="lib/angular-animate.min.js"></script>
+<script src="lib/angular-file-upload.min.js"></script>
+<script src="lib/echarts.min.js"></script>
+<script src="lib/dateRange.js"></script>
+<script src="lib/monthPicker.js"></script>
+<script src="lib/s-locale-zh-ch.js"></script>
+<script src="lib/s-pagination.js"></script>
+<!-- build:js -->
+<script src="/min/app.min.b288d3f0-59f5-11e6-a180-1f577513a90c.js"></script>
+<!-- endbuild -->
+</html>

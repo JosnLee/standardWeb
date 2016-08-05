@@ -1,0 +1,24 @@
+[
+  {
+    "url": "/ims/channelList.do",
+    "target": "/ims/channelList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "渠道列表"
+  },
+  {
+    "url": "/ims/ChannelRest.do",
+    "target": "/ims/ChannelRest.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "重置"
+  },
+  {
+    "url": "/ims/channelFreeze.do",
+    "target": "/ims/channelFreeze.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "冻结"
+  }
+]
+

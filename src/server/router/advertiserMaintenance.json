@@ -1,0 +1,45 @@
+[
+  {
+    "url": "/ims/getAdvList.do",
+    "target": "/ims/getAdvList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告主列表"
+  },
+  {
+    "url": "/ims/isExistUserName.do",
+    "target": "/ims/isExistUserName.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "广告主账号"
+  },
+  {
+    "url": "/ims/isExistShortName.do",
+    "target": "/ims/isExistShortName.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "公司简称"
+  },
+  {
+    "url": "/ims/advAdd.do",
+    "target": "/ims/advAdd.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "广告主新建"
+  },
+  {
+    "url": "/ims/advDetail.do",
+    "target": "/ims/advDetail.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告主详情"
+  },
+  {
+    "url": "/ims/advUpdate.do",
+    "target": "/ims/advUpdate.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "广告主修改"
+  }
+]
+

@@ -1,0 +1,17 @@
+[
+  {
+    "url": "/ims/groupList.do",
+    "target": "/ims/groupList.do",
+    "api": "data",
+    "method": "GET",
+    "desc": "广告组列表"
+  },
+  {
+    "url": "/ims/updateStatus.do",
+    "target": "/ims/updateStatus.do",
+    "api": "data",
+    "method": "POST",
+    "desc": "更新状态"
+  }
+]
+
